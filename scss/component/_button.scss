@@ -1,0 +1,39 @@
+// Buttons
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white-1;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $blue-1;
+}
+
+.error {
+  background-color: $red-1;
+}
+
+.info {
+  background-color: $purple-1;
+}
+
+.success {
+  background-color: $green-3;
+}
+
+.warning {
+  background-color: $orange-1;
+}
+
+@media (min-width: $media-break-md) {
+  .btn {
+    padding: 10px 30px;
+  }
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
